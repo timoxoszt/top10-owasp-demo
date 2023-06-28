@@ -7,7 +7,10 @@
 <body>
 
 <div class="container">
-    <h1>Medium URL</h1>
+    <center>
+        <h1>Medium URL</h1>
+        <img src="medium.png" alt="medium logo" style="height:100px">
+    </center>
     
     <form class="mb-3" action="view.php" method="GET">
         <div class="input-group">
